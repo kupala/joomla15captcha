@@ -1,0 +1,8 @@
+# HOW TO Upgrade from 2.0.0 to 3.0.0 #
+
+  * Use patch. Unpack it from zip.
+
+# HOW TO Upgrade from 1.0.0 to 2.0.0 #
+
+  * Uninstall Joomla Captcha 1.0.0
+  * Install Joomla Captcha 2.0.0

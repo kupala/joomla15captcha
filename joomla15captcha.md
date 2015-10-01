@@ -1,0 +1,9 @@
+# Captcha plugin and patch for Joomla! 1.5 #
+
+Avaible laguages:
+  * byelorussian
+  * english
+  * russian
+  * ukrainian
+
+# Details #

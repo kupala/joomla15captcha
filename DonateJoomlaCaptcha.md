@@ -1,0 +1,6 @@
+# Donate Joomla Captcha #
+
+http://www.wmtransfer.com/
+
+  * U398444781219
+  * Z558530143913

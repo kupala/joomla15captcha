@@ -1,0 +1,9 @@
+# UnInstall #
+
+## Uninstall plugin ##
+
+Use Joomla installer
+
+## Remove patch ##
+
+[Download and apply UnInstall Patch Joomla1.5.15 for JCapthca now](http://code.google.com/p/joomla15captcha/downloads/detail?name=JC45_UnInstall_Patch_Joomla1.5.15_for_JCapthca_rev2.zip)<br>(Extract the archive into the root of the Joomla site)

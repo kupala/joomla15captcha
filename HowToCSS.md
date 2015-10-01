@@ -1,0 +1,58 @@
+# HOW TO control size and style of capthca with CSS? #
+
+Note.
+
+Joomla Captcha 3.0 has one html code for all modules and components. For control use
+  * id="captchatitle"
+  * id="captchaouter"
+  * id="captchaimage"
+  * id="captcha"
+  * id="captchahelplink"
+  * etc.
+
+```
+<span id="captchatitle">Captcha code</span>
+<div id="captchaouter">
+	<span id="captchalegend">Type characters you see. OR Type numbers you hear.</span>
+	<div id="captchaimage">
+		<img src="http://" title="Type characters you see." alt="Type characters you see."></div>
+	<div id="captcha">
+		<input id="captchacode" type="text" name="captchacode" class="captchainputbox required" size="10" value="" />*&nbsp;
+		<script><!--
+		document.write('<a href="javascript:playCaptcha()">');
+		document.write('<img src="'+'http://accessibility.gif'+'" border="0" alt="'+'Listen and type the numbers you hear.'+'"></a>');
+		--></script>
+		<noscript>
+		<a target="_blank" href="http://" title="Listen and type the numbers you hear.">
+		
+		<img alt="Listen and type the numbers you hear" src="http://" align="absMiddle" border="0">
+		Listen and type the numbers you hear.		</a></noscript></div>
+</div>
+<div id="captchahelplink" style="font-size: xx-small">
+	About captcha
+	<a target="_blank" href="http://code.google.com/p/joomla15captcha/">Help</a>
+</div>
+<div>
+</div>
+```
+
+
+Just insert next fragment into your template css file (templates/ja\_purity/css/template.css or other).
+
+for hide help string with css:
+
+```
+/* Joomla Captcha */
+#captchahelplink {
+	visibility: hidden;
+}
+```
+
+for set picture size 90x40px with css ([see sample](http://www.harita-cat.com/)):
+
+```
+#captchaimage img {
+	width: 90px;
+	height: 40px;
+}
+```

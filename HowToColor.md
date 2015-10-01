@@ -1,0 +1,19 @@
+# HOW TO change colors of captcha image? #
+
+Jomla Captcha 2.0.0 and later
+
+In administrator panel of Joomla! go:
+
+Extentions -> Plugin Manager -> System - Captcha -> Parameters -> Plugin Parameters ->
+
+Set "Text color" parameter to "0,0,0"
+or to "0"
+for black.
+
+Set "Background color" parameter to "0,255"
+or to "0,255,0"
+for green.
+
+etc.
+
+The Captcha uses RGB color model

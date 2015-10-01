@@ -1,0 +1,15 @@
+# HOW TO Destroy captha plugin #
+
+Change files:
+
+
+captha.php, captcha.xml
+
+
+or
+
+
+files in folder "captcha"
+
+
+And next releases or updates will be is crashed

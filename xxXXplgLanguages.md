@@ -1,0 +1,9 @@
+# The lang file is required. #
+
+See Download tab for needed lang...
+
+**Joomla Captcha 4.0.0 required!!!!!!!!!!!!!!!!!!!!!!!!!**
+
+See en-GB.plg\_system\_captcha.ini (The source for translations on Download tab)
+
+**Send files with your lang to project to [group](http://groups.google.com/group/joomlacaptcha)!**

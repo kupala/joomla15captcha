@@ -1,0 +1,149 @@
+Download and install -
+
+PATCH mod\_yoo\_login\_1.5.7 with Joomla Captcha 1.0.0 Patch
+
+**Attention! (2008-09-21)**
+
+**With Joomla! Captcha 3.0.0 use**
+
+```
+JDispatcher::getInstance()->trigger( 'onCaptchaView', array( '' ) );
+```
+
+
+**With Joomla! Captcha 2.0.0:**
+
+**use**
+```
+JDispatcher::getInstance()->trigger( 'getCaptchaView', array( '' ) );
+```
+**instead**
+```
+JDispatcher::getInstance()->trigger( 'getCaptchaView', array( '', 2 ) );
+```
+
+
+**For file "modules/mod\_yoo\_login/tmpl/default.php"**
+from line 80 of original file
+
+```
+<?php if(JPluginHelper::isEnabled('system', 'remember')) : ?>
+<?php if ( $auto_remember ) { ?>
+<input type="hidden" name="remember" value="yes" />
+<?php } else { ?>
+<span class="remember">
+	<input id="modlgn_remember<?php echo $yoologin_id; ?>" type="checkbox" name="remember" value="yes" alt="<?php echo JText::_( 'Remember me' ); ?>" />
+	<label for="modlgn_remember<?php echo $yoologin_id; ?>"><?php echo JText::_( 'Remember me' ); ?></label>
+</span>
+<?php } ?>
+<?php endif; ?>
+<!--
+//
+// *** Jomla Captcha Patch start ***
+// Delete this code if Joomla Captcha not instaled!
+//
+-->
+<span class="login-captcha-container">
+	<?php if ( JPluginHelper::isEnabled( 'system', 'captcha' ) ) { JDispatcher::getInstance()->trigger( 'getCaptchaView', array( '', 2 ) ); } // Captcha_patch ?>
+</span>
+<!--
+//
+// *** Jomla Captcha Patch end ***
+//
+-->
+<span class="login-button-container">
+	<span class="login-button<?php echo "-" . $login_button ?>">
+		<button value="<?php if ( $login_button == "text" ) { echo JText::_( 'BUTTON_LOGIN'); } ?>" name="Submit" type="submit" title="<?php echo JText::_('BUTTON_LOGIN'); ?>"><?php if ( $login_button == "text" ) { echo JText::_( 'BUTTON_LOGIN'); } ?></button>
+	</span>
+</span>
+```
+
+
+**For file "modules/mod\_yoo\_login/tmpl/niftydefault.php"**
+from line 80 of original file
+
+```
+<?php if(JPluginHelper::isEnabled('system', 'remember')) : ?>
+<?php if ( $auto_remember ) { ?>
+<input type="hidden" name="remember" value="yes" />
+<?php } else { ?>
+<span class="remember">
+	<input id="modlgn_remember<?php echo $yoologin_id; ?>" type="checkbox" name="remember" value="yes" alt="<?php echo JText::_( 'Remember me' ); ?>" />
+	<label for="modlgn_remember<?php echo $yoologin_id; ?>"><?php echo JText::_( 'Remember me' ); ?></label>
+</span>
+<?php } ?>
+<?php endif; ?>
+<!--
+//
+// *** Jomla Captcha Patch start ***
+// Delete this code if Joomla Captcha not instaled!
+//
+-->
+<span class="login-captcha-container">
+	<?php if ( JPluginHelper::isEnabled( 'system', 'captcha' ) ) { JDispatcher::getInstance()->trigger( 'getCaptchaView', array( '', 2 ) ); } // Captcha_patch ?>
+</span>
+<!--
+//
+// *** Jomla Captcha Patch end ***
+//
+-->
+<span class="login-button-container">
+	<span class="login-button<?php echo "-" . $login_button ?>">
+		<button value="<?php echo JText::_( 'BUTTON_LOGIN'); ?>" name="Submit" type="submit" title="<?php echo JText::_('BUTTON_LOGIN'); ?>"><?php echo JText::_( 'BUTTON_LOGIN'); ?></button>
+	</span>
+</span>
+```
+
+
+**For file "modules/mod\_yoo\_login/tmpl/niftyquick.php"**
+from line 68 of original file
+
+```
+<?php if(JPluginHelper::isEnabled('system', 'remember')) : ?>
+<input type="hidden" name="remember" value="yes" />
+<?php endif; ?>
+<!--
+//
+// *** Jomla Captcha Patch start ***
+// Delete this code if Joomla Captcha not instaled!
+//
+-->
+<span class="login-captcha-container">
+	<?php if ( JPluginHelper::isEnabled( 'system', 'captcha' ) ) { JDispatcher::getInstance()->trigger( 'getCaptchaView', array( '', 2 ) ); } // Captcha_patch ?>
+</span>
+<!--
+//
+// *** Jomla Captcha Patch end ***
+//
+-->
+<span class="login-button">
+	<button value="<?php echo JText::_( 'BUTTON_LOGIN'); ?>" name="Submit" type="submit" title="<?php echo JText::_('BUTTON_LOGIN'); ?>"><?php echo JText::_( 'BUTTON_LOGIN'); ?></button>
+</span>
+```
+
+
+**For file "modules/mod\_yoo\_login/tmpl/quick.php"**
+from line 68 of original file
+
+```
+<?php if(JPluginHelper::isEnabled('system', 'remember')) : ?>
+<input type="hidden" name="remember" value="yes" />
+<?php endif; ?>
+<!--
+//
+// *** Jomla Captcha Patch start ***
+// Delete this code if Joomla Captcha not instaled!
+//
+-->
+<span class="login-captcha-container">
+	<?php if ( JPluginHelper::isEnabled( 'system', 'captcha' ) ) { JDispatcher::getInstance()->trigger( 'getCaptchaView', array( '', 2 ) ); } // Captcha_patch ?>
+</span>
+<!--
+//
+// *** Jomla Captcha Patch end ***
+//
+-->
+<span class="login-button<?php echo "-" . $login_button ?>">
+	<button value="<?php if ( $login_button == "text" ) { echo JText::_( 'BUTTON_LOGIN'); } ?>" name="Submit" type="submit" title="<?php echo JText::_('BUTTON_LOGIN'); ?>"><?php if ( $login_button == "text" ) { echo JText::_( 'BUTTON_LOGIN'); } ?></button>
+</span>
+```

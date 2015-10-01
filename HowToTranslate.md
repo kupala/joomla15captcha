@@ -1,0 +1,42 @@
+# HOW TO translate captha form? #
+
+You must copy language file in Joomla path:
+
+**administrator/language/en-GB/en-GB.plg\_system\_captcha.ini**
+
+to
+
+**administrator/language/xx-XX/xx-XX.plg\_system\_captcha.ini**
+
+where **xx-XX** is your language
+
+and translate any text after **"="**
+
+```
+# $Id: en-GB.plg_system_captcha.ini
+# Joomla! Project
+# Note : All ini files need to be saved as UTF-8 
+
+CAPTCHACODE_FORM_TITLE=Captcha code
+CAPTCHACODE_FORM_TEXT=Type characters you see.
+CAPTCHACODE_OR=OR
+CAPTCHACODE_FORM_SOUND=Type numbers you hear.
+CAPTCHACODE_SOUND=Listen and type the numbers you hear.
+CAPTCHACODE_DO_NOT_MATCH=Captcha code not true.
+CODE LENGHT=Code lenght
+CODE LAYOUT=Code layout
+USE CRYPT MODE=Crypt mode
+HIDE HELP INFO FOR CAPTCHA=Hide help info for captcha
+USE HELP LINK=Use help link
+URL FOR HELP LINK=URL for help link
+CAPTCHA FUNCTIONS FOR JOOMLA=Captcha functions for Joоmla! 1.5<br>Need patches install first!<br>See http://code.google.com/p/joomla15captcha/ for help.<br>Donate captha and accessibility projects for Joomla! Thank's!
+IMAGE=Picture
+IMAGE SOUND=Picture Sound
+SOUND=Sound
+NO=No
+CAPTCHACODE_HELP=About captcha
+CAPTCHACODE_HELP_LINKNAME=Help
+PROJECT_PAGE=Project
+TEXT COLOR=Text color
+BACKGROUND COLOR=Background color
+```

@@ -1,0 +1,3 @@
+# The xx\_XX.captchasounds.zip file is required. #
+
+See Download tab for needed lang...

@@ -1,0 +1,97 @@
+| **The Captcha not work without Patch Joomla 1.5.8 for JCapthca!!!** | **Always make a backup before you install any program!!!** |
+|:--------------------------------------------------------------------|:-----------------------------------------------------------|
+|Каптча не работает без установленных патчей Joomla 1.5.8 for JCapthca!!!|Всегда делайте резервную копию перед установкой любой программы!!!|
+
+# Installation #
+
+**1.** Unpak patches in root folder of your Joomla site.
+
+_**JС43 Patch Joomla 1.5.8 for JCapthca 4.3.0**_
+
+**2.** Install the plugin.
+
+_**JС43 Installation JCaptha 4.3.0**_
+
+(If upgrade from previous versions just unpack _**JС43 Upgrade Patch from Joomla Captha 4.0 to Joomla Captha 4.3.0** in root folder of your Joomla site.)_
+
+**3.** Save plugin parameters.
+
+[See how to setup parameters there...](http://groups.google.com/group/joomlacaptcha/web/joomla-captcha-parameters)
+
+**```
+Adm.panel - > Extentions -> Plugin Manager -> System - Captcha -> Save btn
+```**
+
+**4.** Enjoy.
+
+
+## 1. Unpak patches ##
+
+![http://joomla15captcha.googlecode.com/files/HowToPack01.png](http://joomla15captcha.googlecode.com/files/HowToPack01.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToPack02.png](http://joomla15captcha.googlecode.com/files/HowToPack02.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToPack03.png](http://joomla15captcha.googlecode.com/files/HowToPack03.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToPack04.png](http://joomla15captcha.googlecode.com/files/HowToPack04.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToPack05.png](http://joomla15captcha.googlecode.com/files/HowToPack05.png)
+
+## 2. Install the plugin ##
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall01.png](http://joomla15captcha.googlecode.com/files/HowToInstall01.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall02.png](http://joomla15captcha.googlecode.com/files/HowToInstall02.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall03.png](http://joomla15captcha.googlecode.com/files/HowToInstall03.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall04.png](http://joomla15captcha.googlecode.com/files/HowToInstall04.png)
+
+## 4. Save plugin parameters ##
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall05.png](http://joomla15captcha.googlecode.com/files/HowToInstall05.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall06.png](http://joomla15captcha.googlecode.com/files/HowToInstall06.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall07.png](http://joomla15captcha.googlecode.com/files/HowToInstall07.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall08.png](http://joomla15captcha.googlecode.com/files/HowToInstall08.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall09.png](http://joomla15captcha.googlecode.com/files/HowToInstall09.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall10.png](http://joomla15captcha.googlecode.com/files/HowToInstall10.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall11.png](http://joomla15captcha.googlecode.com/files/HowToInstall11.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToInstall12.png](http://joomla15captcha.googlecode.com/files/HowToInstall12.png)
+
+
+## 5. After Installation ##
+
+![http://joomla15captcha.googlecode.com/files/HowToAfterInst01.png](http://joomla15captcha.googlecode.com/files/HowToAfterInst01.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToAfterInst02.png](http://joomla15captcha.googlecode.com/files/HowToAfterInst02.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToAfterInst03.png](http://joomla15captcha.googlecode.com/files/HowToAfterInst03.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToAfterInst04.png](http://joomla15captcha.googlecode.com/files/HowToAfterInst04.png)
+
+
+## 6. Joomla Captcha for admin login ##
+
+![http://joomla15captcha.googlecode.com/files/HowToAfterInst05.png](http://joomla15captcha.googlecode.com/files/HowToAfterInst05.png)
+
+![http://joomla15captcha.googlecode.com/files/HowToAfterInst06.png](http://joomla15captcha.googlecode.com/files/HowToAfterInst06.png)
+
+
+# Upgrade #
+
+Unpack zip file in your Joomla! site root
+
+Note.
+
+From Joomla Captcha 3.0.0 Core and Template patches all in one file
+
+# Patches #
+
+All patches unpack in your Joomla! site root
